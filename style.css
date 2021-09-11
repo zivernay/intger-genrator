@@ -1,0 +1,41 @@
+body{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 3em;
+  padding: 1em;
+  background: rgb(34,193,195);
+  background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+}
+.output{
+  text-align: center;
+  background: linear-gradient(30deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+}
+input{
+  width: 250px;
+  height: 40px;
+  font-size: 30px;
+}
+button{
+  height: 40px;
+  font-size: 30px;
+}
+span {
+  font-size: 1em;
+  padding: 15px;
+  overflow: auto;
+}
+.integer-output{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  grid-template-rows: auto;
+  gap: 10px;
+}
+.integer-output span:first-child {
+  background: rgb(255,255,255);
+  background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(132,215,113,1) 0%, rgba(82,207,54,1) 30%, rgba(52,185,23,1) 81%);
+}
+.integer-output span:nth-child(even){
+  background: linear-gradient(30deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);}
+.integer-output span:last-child {
+  background: rgb(255,255,255);
+  background: linear-gradient(90deg, rgba(255,255,25,1) 0%, rgba(205,0,0,1) 0%, rgba(224,56,56,1) 31%, rgba(238,54,54,1) 79%);
+}
