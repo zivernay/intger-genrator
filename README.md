@@ -1,1 +1,1 @@
-# intger-genrator
+# integer-genrator
